@@ -1,0 +1,48 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <title>COLOR PICKER</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1 class="title-text">Choisissez votre couleur en cliquant sur une gommette.</h1>
+            <p>Utilisez le color picker pour changer la couleur de fond. Cliquez sur valider pour ajouter une gommette. Double-cliquez pour supprimer une gommette. </p>
+        </div>
+    </header>
+    <main>
+        <div class="output">
+
+        </div>
+        <div class="picker-container">
+            <div class="picker-container-colors">
+                <div class="colors">
+                    <div class="color" data-color="green"></div>
+                    <div class="color" data-color="red"></div>
+                    <div class="color" data-color="blue"></div>
+                    <div class="color" data-color="pink"></div>
+                    <div class="color" data-color="#458762"></div>
+                    <div class="color" data-color="white"></div>
+                    <div class="color" data-color="grey"></div>
+
+                </div>
+            </div>
+            <div class="picker-container-input">
+                <div>
+                    <input type="color" name="color" value="#e66465" class="picker-container-input-text" placeholder="Entrez une couleur">
+                    <button class="picker-container-input-button">Valider</button>
+                    <p class="output-code"></p>
+                </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
